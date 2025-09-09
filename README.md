@@ -1,2 +1,3 @@
-# PF-LAB-03
+# PF-LAB
+
 Here are my lab tasks and assignments.
