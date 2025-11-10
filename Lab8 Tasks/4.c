@@ -19,7 +19,7 @@ for(j=0;j<3;j++){
 }
     }
 
-    printf("Day\tMorning\tAfternoon\t\tNight\n");
+    printf("Day\tMorning\t\tAfternoon\tNight\n");
     for(i=0;i<7;i++){
 printf("%d\t",i+1);
 for(j=0;j<3;j++){
