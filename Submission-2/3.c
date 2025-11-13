@@ -1,8 +1,8 @@
 #include<stdio.h>
 int RemoveSorted(int *arr1D,int row){
-   int j=0;
-for(int i=0;i<row;i++){
-    if(arr1D[i]!=arr1D[i+1]){
+   int j=1;
+for(int i=1;i<row;i++){
+    if(arr1D[i]!=arr1D[i-1]){
         arr1D[j++]=arr1D[i];
     }
 }
